@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="top">
+            <h2><span id="score">score: 0</span></h2>
+            <button id="start-btn"><img id=btnImg src="pause.png" alt=""></button>
+        </div>
+        <div class="lbl">
+            <div class=" lbl1">Level :</div>
+            <div id="decrement-count">
+                <input type="image" onclick="countTheLevel()" id="left-arrow" src=leftt.png>
+            </div>
+
+            <div id="total-count"></div>
+            <div id="increment-count">
+                <input type="image" onclick="countTheLevel()" id="right-arrow" src=right.png>
+            </div>
+        </div>
+        <div class="game-play">
+
+            <div class="bolls">
+            </div>
+            <div class="arrows">
+                <input type="image" id="left" src="below-left.png">
+                <input type="image" id="bottom" src="below-bottom.png">
+                <input type="image" id="right" src="below-right.png">
+            </div>
+        </div>
+        <script src="index.js"></script>
+</body>
+
+</html>

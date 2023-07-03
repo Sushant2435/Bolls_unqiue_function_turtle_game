@@ -1,0 +1,122 @@
+body{
+    height : 100%;
+    overflow-y: hidden;
+}
+.main-container{
+    border:5px solid black;
+    width: 300px;
+    margin:auto;
+    background-color: rgb(210, 171, 245);
+}
+.top{
+    display: flex;
+    justify-content:space-between;
+    width: 200px;
+    margin: 10px auto;
+}
+#start-button{
+    background-color: #131519;
+    border: none;
+    cursor: pointer;
+}
+#start-btn img{
+    width: 50px;
+    height: auto;
+}
+ul{
+    display: flex;
+}
+li{
+    margin-left:40px;
+    list-style: none;
+}
+.lbl{
+    width: 200px;
+    margin: auto;
+    display:flex;
+
+}
+.lbl1{
+    font-size:25px;
+    font-weight: bolder;
+}
+
+#left-arrow{
+    width:20px;
+    height:30px;
+    margin-bottom:10px;
+}
+#right-arrow{
+    width:20px;
+    height:30px;
+    margin-bottom:10px;
+}
+#total-count{
+    background-color: white;
+    width:70px;
+    height:25px;
+    text-align:center;
+    text-decoration: solid;
+    padding-top: 4px;;
+}
+.inp{
+    width:30px;
+}
+.bolls{
+    width:200px;
+    height:550px;
+    display:flex;
+    flex-wrap: wrap;
+    margin:auto;
+    background-color: black;
+}
+.bolls div{
+    height:61px;
+    width:40px;
+    text-align: center;
+    border: none;
+    color: whitesmoke;
+    box-sizing: border-box;
+    border-radius:80%;
+    flex:1 1 60px;
+}
+.arrows{
+    width: 200px;
+    margin: auto;
+    background-color: white;
+    text-align: center;
+}
+#left{
+    height: 18px;
+    width: 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+#right{
+    height: 18px;
+    width: 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+#bottom{
+    height: 18px;
+    width: 30px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+.bolls clr{
+    background-color:rgb(210, 171, 245) ;
+}
+.yellow{
+    background-color: yellow;
+}
+.pink{
+    background-color: pink;
+}
+.skyblue{
+    background-color: skyblue;
+}
+.red{
+    background-color: red;
+}
